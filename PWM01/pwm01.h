@@ -28,6 +28,8 @@ Notes:
       
 */
 
+#ifdef __arm__
+
 #ifndef PWM01_H
 #define PWM01_H
 
@@ -57,5 +59,7 @@ void  pwm_write_duty( uint32_t  pwm_pin,  uint32_t  pwm_duty );
 // FORCE PWM STOP
 //--------------------------------
 void  pwm_stop( uint32_t  pwm_pin ) ;
+
+#endif
 
 #endif
