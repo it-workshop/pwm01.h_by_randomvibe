@@ -31,7 +31,7 @@ Notes:
 #include "pwm01.h"
 
 
-int       pwm_resolution_nbit = 8;
+int       pwm_resolution_nbit = 16;
 uint32_t  pwm_clockA_freq = 0;
 uint32_t  pwm_clockB_freq = 0;
 uint32_t  pwm_max_duty_Ncount = 255;
